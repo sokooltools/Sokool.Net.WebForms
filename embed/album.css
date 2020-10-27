@@ -1,0 +1,113 @@
+body
+{
+	font-family: Arial, "Courier New";
+	font-size: 8pt;
+	background: #E6E2C1;
+}
+
+a
+{
+	text-decoration: underline;
+	color: #0467c4;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: green;
+}
+
+a img
+{
+	border: blue 1px solid;
+}
+
+img.home {
+	float: left;
+	border: none;
+}
+
+div.close a:hover {
+	color: green;
+}
+
+div.title {
+	width: 83%;
+	float: left;
+	font-size: 14pt;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+}
+
+td.close {
+	font-size: 8pt;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.xboxcontent {
+	display: block;
+	background: #fffff1;
+	border: 1px solid #FFFFFF;
+}
+#HomeButton
+{
+	height: 33px;
+	width: 8%;
+	float: left;
+	border: none;
+	margin-left: 4px;
+	margin-top: 12px;
+}
+
+#MainTitle
+{
+	padding: 8px 4px 8px 4px;
+	margin-bottom: 12px;
+	background-color: #FFFFCC;
+	color: #999966;
+	width: 73%;
+	float: left;
+	font-size: 14pt;
+	font-weight: 600;
+	vertical-align: middle;
+	border-color: #C0C0C0;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	white-space: nowrap;
+}
+#MainTitle2
+{
+	padding: 8px 4px 8px 4px;
+	margin-bottom: 12px;
+	background-color: #FFFFCC;
+	color: #999966;
+	width: 100%;
+	font-size: 14pt;
+	font-weight: 600;
+	vertical-align: middle;
+	border-color: #C0C0C0;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	white-space: nowrap;
+}
+
+#PictureLinkSpan
+{
+	/*border-style: solid;
+	border-color: white;
+	background: #C0C0C0;
+	border-width: 10px 10px 10px 10px;*/
+}
+#PictureCommentSpan
+{
+	font-size: 14pt;
+}
+#shadow
+{
+	border-style: outset;
+}
+#FolderViewParentLinkSpan
+{
+}

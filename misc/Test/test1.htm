@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <title>jQuery demo</title>
+ <style type="text/css">
+    a.test { font-weight: bold; }
+ </style>
+   <meta content="text/html; charset=us-ascii" http-equiv="Content-Type">
+</head>
+ <body>
+   <a href="http://jquery.com/">This is jQuery</a>
+   <script type="text/jscript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+   <script type="text/jscript">
+     $(document).ready(function(){
+       	$("a").click(function(event)
+       	{
+         	//alert("As you can see, the link no longer took you to jquery.com");
+         	event.preventDefault();
+         	$(this).hide("slow");
+        	});
+         $("a").addClass("test");
+
+     });
+ </script>
+   <form method="post">
+	   <hr>
+   </form>
+   <p>this is a test</p>
+   <form method="post">
+	   <textarea cols="20" name="TextArea1" rows="2"></textarea></form>
+   <p><input name="Button1" style="width: 177px" type="button" value="button"></p>
+ </body>
+ </html>

@@ -1,0 +1,123 @@
+p, li, ul, div, span, pre, body {
+	font-family: Arial, "Lucida Console";
+}
+
+body {
+	width: 98%;
+	color: #0467c4;
+	text-align: center;
+	background-image: url('images/gradient.png');
+	background-repeat: repeat-x;
+}
+
+.table1 {
+	width: 100%;
+	text-align: center;
+}
+
+td.close a:link a:link:visited, a:visited {
+	color: #0467c4;
+}
+
+a:link {
+	color: #0467c4;
+}
+
+a:hover {
+	color: green;
+}
+
+div.home {
+	width: 8%;
+	float: left;
+}
+
+img.home {
+	float: left;
+	border: none;
+}
+
+div.title {
+	/*width: 81%;
+	float: left;*/
+	font-size: 14pt;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+}
+
+div.close a:hover {
+	color: green;
+}
+
+div.close {
+	width: 10%;
+	float: left;
+	text-align: right;
+	position: relative;
+	left: 6px;
+	top: 6px;
+	font-size: 8pt;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+div.lyrics, #Lyrics {
+	height: 99px;
+	width: 440px;
+	border: 3px solid #ccc;
+	background: #f2f2f2;
+	padding: 6px;
+	overflow: auto;
+	font-size: 9pt;
+	text-align: center;
+	display: none;
+	margin: auto;
+}
+
+div.outerborder1 {
+	height: 100%;
+	margin: 0;
+	padding: 8px 4px 8px 4px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #CCCCCC;
+}
+
+div.outerborder2 {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: #FFCC00;
+}
+
+.playerborder {
+	/*height: 475px;
+	width: 567px;*/
+	border: 3px solid #808080;
+	background: silver;
+	padding: 3px;
+	margin: auto;
+}
+
+object {
+	/*height: 475px;
+	width: 567px;
+	vertical-align: middle;*/
+}
+
+.player:-webkit-full-screen {
+	width: 100%;
+	height: 100%;
+}
+
+.player:-moz-full-screen {
+	width: 100%;
+	height: 100%;
+}
+
+.link {
+	height: 20px;
+}

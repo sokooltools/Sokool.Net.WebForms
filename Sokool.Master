@@ -1,0 +1,231 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sokool.master.cs" Inherits="Sokool.Net.Sokool" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Sokool.Net - Home</title>
+	<meta name="KEYWORDS" content="" />
+	<link rel="shortcut icon" href="~/embed/images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="~/embed/images/favicon.ico" type="image/x-icon" />
+	<link href="~/embed/styles.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		table { border-spacing: 0; } /* cellspacing */
+		th, td { padding: 0; } /* cellpadding */
+	</style>
+</head>
+<body style="height: 100%; margin: 0 0; padding: 0 0; background-color: #86b1c3">
+	<form id="form1" runat="server">
+	<table style="height: 100%; width: 100%" class="alltable">
+		<tr>
+			<td colspan="6" style="height: 10px">
+			</td>
+		</tr>
+		<tr style="background-color: #ffffff">
+			<td>
+			</td>
+			<td class="gradbg" style="width: 277px">
+				<div style="width: 277px; height: 0;">
+				</div>
+				<table class="menu-bg" style="width: 181px" >
+					<tr>
+						<td style="padding: 6px; vertical-align:top">
+							<table>
+								<tr>
+									<td class="menuitem">
+										<a runat="server" href="~/index.aspx">Home</a>
+									</td>
+									<td class="menumark">
+										<img runat="server" src="~/embed/images/mark.gif" width="27" height="9" border="0" alt="" />
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td class="menuitem">
+										<a runat="server" href="~/aboutUs.aspx">About Us</a>
+									</td>
+									<td class="menumark">
+										<img runat="server" src="~/embed/images/mark.gif" width="27" height="9" border="0" alt="" />
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td class="menuitem">
+										<a runat="server" href="~/videos/videos.aspx">Videos</a>
+									</td>
+									<td class="menumark">
+										<a runat="server" href="~/videos/videos.aspx">
+											<img runat="server" src="~/embed/images/mark.gif" width="27" height="9" border="0" alt="" />
+										</a>
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td class="menuitem">
+										<a runat="server" href="~/photos/photos.aspx">Photos</a>
+									</td>
+									<td class="menumark">
+										<a runat="server" href="~/photos/photos.aspx">
+											<img runat="server" src="~/embed/images/mark.gif" width="27" height="9" border="0" alt="" />
+										</a>
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td class="menuitem">
+										<a runat="server" href="~/favLinks.aspx">Favorite Links</a>
+									</td>
+									<td class="menumark">
+										<a runat="server" href="~/favLinks.aspx">
+											<img runat="server" src="~/embed/images/mark.gif" width="27" height="9" border="0" alt="" />
+										</a>
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td class="menuitem">
+										<a runat="server" href="~/contactUs.aspx">Contact Us</a>
+									</td>
+									<td class="menumark">
+										<a runat="server" href="~/contactUs.aspx">
+											<img runat="server" src="~/embed/images/mark.gif" width="27" height="9" border="0" alt="" />
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="topbg" colspan="3" rowspan="3" width="384" height="288">
+				<div style="width: 384px; height: 0;">
+				</div>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td height="11">
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td width="277" class="pageheader">
+				Sokool.Net
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr style="height: 200px">
+			<td>
+			</td>
+			<td colspan="2" width="469" class="thatext" style="padding: 20px 40px 20px 12px; background-color: white; ">
+				<table>
+					<tr>
+						<td class="thatext" width="395">
+							<div>
+								<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+								</asp:ContentPlaceHolder>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td width="11">
+				<div style="width: 11px; height: 0;">
+				</div>
+			</td>
+			<td width="181" class="second-bg" style="padding: 5px 16px 5px 4px; vertical-align: top">
+				<div style="width: 181px; height: 0;">
+				</div>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td height="11">
+			</td>
+			<td width="277">
+			</td>
+			<td width="192">
+			</td>
+			<td width="11">
+			</td>
+			<td width="181">
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td height="27">
+			</td>
+			<td colspan="4" class="bottom-bg" >
+				<table>
+					<tr>
+						<td class="bottommenuitem">
+							<a runat="server" href="~/index.aspx">Home</a>
+						</td>
+						<td style="padding: 0 3px;">
+							<img runat="server" src="~/embed/images/2nd_mark_light.gif" width="12" height="12" border="0" alt="" />
+						</td>
+						<td class="bottommenuitem">
+							<a runat="server" href="~/aboutUs.aspx">About Us</a>
+						</td>
+						<td style="padding: 0 3px;">
+							<img runat="server" src="~/embed/images/2nd_mark_light.gif" width="12" height="12" border="0" alt="" />
+						</td>
+						<td class="bottommenuitem">
+							<a runat="server" href="~/videos/videos.aspx">Videos</a>
+						</td>
+						<td style="padding: 0 3px;">
+							<img runat="server" src="~/embed/images/2nd_mark_light.gif" width="12" height="12" border="0" alt="" />
+						</td>
+						<td class="bottommenuitem">
+							<a runat="server" href="~/photos/photos.aspx">Photos</a>
+						</td>
+						<td style="padding: 0 3px;">
+							<img runat="server" src="~/embed/images/2nd_mark_light.gif" width="12" height="12" border="0" alt="" />
+						</td>
+						<td class="bottommenuitem">
+							<a runat="server" href="~/favLinks.aspx">Favorite Links</a>
+						</td>
+						<td style="padding: 0 3px;">
+							<img runat="server" src="~/embed/images/2nd_mark_light.gif" width="12" height="12" border="0" alt="" />
+						</td>
+						<td class="bottommenuitem">
+							<a runat="server" href="~/contactUs.aspx">Contact Us</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div style="width: 60px; height: 0;">
+				</div>
+			</td>
+			<td colspan="4" class="copy">
+				&copy;2012-2016 All Rights Reserved...<div style="width: 661px; height: 0;">
+				</div>
+			</td>
+			<td style="width: 100%;">
+			</td>
+		</tr>
+	</table>
+	<div style="display: none">
+	</div>
+	</form>
+</body>
+</html>

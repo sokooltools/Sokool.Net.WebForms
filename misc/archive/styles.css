@@ -1,0 +1,51 @@
+
+.pageContent { font-size: 8pt; color: #666666; font-family: tahoma, Arial; }
+.pageContent a { font-size: 8pt; color: #666666; font-family: tahoma, Arial; }
+
+a:hover { text-decoration: underline; color: green; }
+
+input, select, textarea { font-family: Tahoma,Arial; font-size: 8pt; }
+/* img { behavior:url('images/pngbehavior.htc'); } */
+
+/* p { text-align:justify; } */
+
+/* top */
+td.gradbg { background: #ffffff url('menu_gr_bg.gif') bottom right; }
+td.topbg { background: #ffffff url('top.jpg') bottom left no-repeat; }
+td.pageheader { color: #8c8c8c; font-size: 14px; font-family: Gals, tahoma; font-weight: bold; text-transform: uppercase; padding: 0px 20px 0px 43px; background: #c8c8c8 url(pageheader.gif) left center no-repeat; }
+
+table.alltable { background-color: #86B1C3; }
+table.menu-bg { background-color: #7bcb89; }
+td.second-bg { background-color: #9EC1CF; }
+td.bottom-bg { background-color: #ABC9D5; }
+
+td.menuitem { height: 28px; color: #ffffff; font-weight: bold; font-family: tahoma,arial; font-size: 10px; text-transform: uppercase; white-space: nowrap; }
+td.menuitemactive { height: 28px; color: #BEF7D2; font-weight: bold; font-family: tahoma,arial; font-size: 10px; text-transform: uppercase; white-space: nowrap; }
+td.menumark { padding-top: 2px; }
+td.menuitem a { text-decoration: none; color: #ffffff; }
+td.menuitem a:hover { color: #FFFF00; }
+
+td.menuitemactive a { text-decoration: none; color: #BEF7D2; }
+
+div.mycompany { font-size: 21px; color: #86B1C3; font-family: Gals, tahoma; font-weight: bold; text-transform: uppercase; }
+div.slogan { font-size: 7pt; color: #838383; font-family: Gals, tahoma; font-weight: bold; text-transform: uppercase; padding-left: 1px; }
+
+td.secondmenuitem { color: #ffffff; height: 22px; font-family: tahoma,arial; font-size: 8pt; text-transform: lowercase; }
+td.secondmenuitemactive { color: #DBE8ED; height: 22px; font-family: tahoma,arial; font-size: 8pt; text-decoration: underline; text-transform: lowercase; }
+td.secondmenuitem a { color: #ffffff; text-decoration: none; }
+td.secondmenuitemactive a { color: #DBE8ED; }
+td.secondmenumark { padding-top: 2px; }
+
+td.bottommenuitem { padding-bottom: 1px; color: #ffffff; font-family: tahoma,arial; font-size: 8pt; text-transform: lowercase; }
+td.bottommenuitemactive { padding-bottom: 1px; color: #DBE8ED; font-family: tahoma,arial; font-size: 8pt; text-transform: lowercase; }
+td.bottommenuitem a { color: #ffffff; text-decoration: none; }
+td.bottommenuitemactive a { color: #DBE8ED; text-decoration: none; }
+
+td.thatext { font-family: tahoma,arial; font-size: 8pt; color: #666666; }
+td.thatext a { color: #0467c4; }
+td.thatext a:hover { color: green; }
+
+td.copy { vertical-align: top; padding: 10px 0px 0px 0px; font-family: tahoma,arial; font-size: 10px; color: #DBE8ED; }
+td.copy a { color: #DBE8ED; }
+
+div.footer { position: absolute; height: 100%; }
