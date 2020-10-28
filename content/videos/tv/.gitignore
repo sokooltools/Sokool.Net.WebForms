@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!WKRP in Cincinnati.mp4
+!WKRP in Cincinnati.txt

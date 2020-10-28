@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!Marvin Gaye - Whats Going On.mp4
+!Marvin Gaye - Whats Going On.txt
