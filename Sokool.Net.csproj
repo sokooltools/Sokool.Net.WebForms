@@ -131,6 +131,10 @@
     <Content Include="content\videos\comm\Ajax.png" />
     <Content Include="content\videos\movies\The Pacific -Trailer.mp4" />
     <Content Include="content\videos\movies\_config.txt" />
+    <Content Include="content\videos\music1\Barry White - Can%27t Get Enough Of Your Love.mp4" />
+    <Content Include="content\videos\music1\Barry White - Can%27t Get Enough Of Your Love.txt" />
+    <Content Include="content\videos\music1\Blue Swede - Hooked On A Feeling.mp4" />
+    <Content Include="content\videos\music1\Blue Swede - Hooked On A Feeling.txt" />
     <Content Include="content\videos\music1\Cowsills - The Rain the Park and Other Things.mp4" />
     <Content Include="content\videos\music1\Cowsills - The Rain the Park and Other Things.txt" />
     <Content Include="content\videos\music2\LuLu -To Sir With Love.mp4" />
@@ -138,6 +142,11 @@
     <Content Include="content\videos\music3\Marvin Gaye - Whats Going On.mp4" />
     <Content Include="content\videos\music3\Marvin Gaye - Whats Going On.txt" />
     <Content Include="content\videos\music3\_config.txt" />
+    <Content Include="content\videos\phantom\Angel Of Music.mp4" />
+    <Content Include="content\videos\phantom\Angel Of Music.txt" />
+    <Content Include="content\videos\tv\Father Knows Best.mp4" />
+    <Content Include="content\videos\tv\Lost In Space.mp4" />
+    <Content Include="content\videos\tv\My 3 Sons.mp4" />
     <Content Include="embed\images\favicon.ico" />
     <Content Include="embed\images\gradient.png" />
     <Content Include="embed\jquery-ui.css" />
