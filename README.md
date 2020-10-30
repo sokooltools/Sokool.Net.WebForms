@@ -3,4 +3,4 @@ Sokool.Net Website (ASP.NET WebForms)
 
 <hr>
 
-![Image1](Images/image1.png  "Videos page")
+![Image1](Images/Image1.png  "Videos page embedded in Master page")
