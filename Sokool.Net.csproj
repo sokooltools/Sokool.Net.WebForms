@@ -164,6 +164,7 @@
     <Content Include="embed\skins\stormtrooper.css" />
     <Content Include="embed\skins\vapor.css" />
     <Content Include="customerrors\NoAccess.htm" />
+    <Content Include="Images\Image1.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
