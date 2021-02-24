@@ -75,16 +75,15 @@ namespace Sokool.Net.Code
 					}
 				}
 			}
-			if (list.Count < count)
+
+			if (list.Count >= count) 
+				return list;
+
+			foreach (string file in Directory.GetFiles(PhysicalPath, "*.jpg"))
 			{
-				foreach (string file in Directory.GetFiles(PhysicalPath, "*.jpg"))
-				{
-					list.Add(Picture.GetPicture(file));
-					if (list.Count >= count)
-					{
-						break;
-					}
-				}
+				list.Add(Picture.GetPicture(file));
+				if (list.Count >= count)
+					break;
 			}
 			return list;
 		}

@@ -98,8 +98,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <cc1:GridViewSortExtender ID="GridViewSortExtender2" runat="server" AscendingImageUrl="~/embed/Ascending.gif"
-                            DescendingImageUrl="~/embed/Descending.gif" ExtendeeID="GridView1">
+                        <cc1:GridViewSortExtender ID="GridViewSortExtender2" runat="server" AscendingImageUrl="~/embed/images/Ascending.gif"
+                            DescendingImageUrl="~/embed/images/Descending.gif" ExtendeeID="GridView1">
                         </cc1:GridViewSortExtender>
                     </td>
                 </tr>

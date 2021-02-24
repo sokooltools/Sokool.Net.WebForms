@@ -19,6 +19,18 @@ namespace Sokool.Net.Code
 		private readonly int _height;
 		private readonly int _width;
 
+		public string Src { get; }
+
+		public string Link { get; }
+
+		public int Width => _width;
+
+		public int Height => _height;
+
+		public string Alt { get; }
+
+		public string Comments { get; }
+
 		//------------------------------------------------------------------------------------------------------------------------
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ImageTag"/> class.
@@ -68,18 +80,6 @@ namespace Sokool.Net.Code
 					throw new HttpException("invalid link mode");
 			}
 		}
-
-		public string Src { get; }
-
-		public string Link { get; }
-
-		public int Width => _width;
-
-		public int Height => _height;
-
-		public string Alt { get; }
-
-		public string Comments { get; }
 
 		//------------------------------------------------------------------------------------------------------------------------
 		/// <summary>

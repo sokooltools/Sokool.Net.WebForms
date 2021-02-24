@@ -48,10 +48,11 @@ namespace Sokool.Net.Code
 		/// ----------------------------------------------------------------------------------
 		public static byte[] BitmapToBytes(Image bitmap)
 		{
-			var ms = new MemoryStream();
-			bitmap.Save(ms, ImageFormat.Jpeg);
-			ms.Close();
-			return ms.ToArray();
+			using (var ms = new MemoryStream())
+			{
+				bitmap.Save(ms, ImageFormat.Jpeg);
+				return ms.ToArray();
+			}
 		}
 
 		//--------------------------------------------------------------------------------------------------------------

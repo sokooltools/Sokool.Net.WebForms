@@ -52,9 +52,9 @@ namespace Sokool.Net.Code
 		//------------------------------------------------------------------------------------------
 		[DefaultValue("")]
 		[IDReferenceProperty(typeof(GridView))]
-		[TypeConverter(typeof(GridViewIDConverter))]
+		[TypeConverter(typeof(GridViewIdConverter))]
 		[Description("The GridView that is extended.")]
-		public string ExtendeeID
+		public string ExtendeeId
 		{
 			get => ViewState["Extendee"] != null ? (string)ViewState["Extendee"] : "";
 			set => ViewState["Extendee"] = value;
@@ -70,10 +70,11 @@ namespace Sokool.Net.Code
 		{
 			OnInit(e);
 
-			var extendee = NamingContainer.FindControl(ExtendeeID) as GridView;
 
-			if (extendee == null || !extendee.AllowSorting || extendee.HeaderRow == null ||
-			    String.IsNullOrEmpty(extendee.SortExpression)) return;
+			if (!(NamingContainer.FindControl(ExtendeeId) is GridView extendee) 
+			    || !extendee.AllowSorting || extendee.HeaderRow == null 
+			    || String.IsNullOrEmpty(extendee.SortExpression)) 
+				return;
 
 			int field = GetSortField(extendee);
 
@@ -97,7 +98,7 @@ namespace Sokool.Net.Code
 		//------------------------------------------------------------------------------------------
 		private static int GetSortField(GridView extendee)
 		{
-			var i = 0;
+			int i = 0;
 			foreach (DataControlField field in extendee.Columns)
 			{
 				if (field.SortExpression == extendee.SortExpression)
@@ -127,7 +128,7 @@ namespace Sokool.Net.Code
 	///
 	/// </summary>
 	//----------------------------------------------------------------------------------------------
-	public class GridViewIDConverter : ControlIDConverter
+	public class GridViewIdConverter : ControlIDConverter
 	{
 		// Methods
 		protected override bool FilterControl(Control control)

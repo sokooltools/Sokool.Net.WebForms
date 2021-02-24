@@ -25,7 +25,7 @@ namespace Sokool.Net.Code
 			var dirInfo = new DirectoryInfo(HttpContext.Current.Server.MapPath("~\\" + path));
 			if (dirInfo.Exists)
 			{
-				var fileInfoArray = dirInfo.GetFiles(fileExt);
+				FileInfo[] fileInfoArray = dirInfo.GetFiles(fileExt);
 				foreach (FileInfo fileInfo in fileInfoArray)
 				{
 					string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.Name);

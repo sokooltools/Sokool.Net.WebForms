@@ -95,13 +95,12 @@ namespace Sokool.Net.Code
 				}
 
 				// calculate
-				int width, height;
-				CalcResizedDims(size, out width, out height);
+				CalcResizedDims(size, out int width, out int height);
 
 				// draw new image
 				using (var newImage = new Bitmap(width, height))
 				{
-					using (var g = Graphics.FromImage(newImage))
+					using (Graphics g = Graphics.FromImage(newImage))
 					{
 						g.InterpolationMode = InterpolationMode.HighQualityBicubic;
 						g.DrawImage(originalImage, 0, 0, width, height);
@@ -130,8 +129,7 @@ namespace Sokool.Net.Code
 
 				// calculate
 				int size = Album.ThumbnailSize;
-				int width, height;
-				CalcResizedDims(size, out width, out height);
+				CalcResizedDims(size, out int width, out int height);
 				int drawWidth = width;
 				int drawHeight = height;
 				width = Math.Max(width, size);
