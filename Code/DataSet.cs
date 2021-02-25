@@ -1,7 +1,8 @@
 ﻿namespace Sokool.Net.Code
 {
-    
-    
-    public partial class DataSet1 {
-    }
+
+
+	public partial class DataSet1
+	{
+	}
 }
