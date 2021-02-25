@@ -62,7 +62,7 @@
                             <RowStyle CssClass="rowA" />
                             <AlternatingRowStyle CssClass="rowB" />
                             <Columns>
-                                <asp:HyperLinkField DataNavigateUrlFields="Path,Name" DataTextField="DisplayName" HeaderText="File Name"
+                                <asp:HyperLinkField DataNavigateUrlFields="Path,Name" DataTextField="DisplayName" HeaderText="File Name" 
                                     SortExpression="Name" DataNavigateUrlFormatString="display.aspx?path={0}&vid={1}">
                                     <ItemStyle HorizontalAlign="Left" />
                                 </asp:HyperLinkField>
@@ -72,7 +72,6 @@
                                 </asp:BoundField>
                                 <asp:BoundField DataField="Length" SortExpression="Length" HeaderText="File Size"
                                     ItemStyle-HorizontalAlign="Right" DataFormatString="{0:#,### KB}">
-                                    <ItemStyle HorizontalAlign="Right"></ItemStyle>
                                 </asp:BoundField>
                                 <asp:BoundField DataField="Path" Visible="false"></asp:BoundField>
                             </Columns>

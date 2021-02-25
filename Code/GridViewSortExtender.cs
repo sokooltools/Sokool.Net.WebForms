@@ -78,7 +78,8 @@ namespace Sokool.Net.Code
 
 			int field = GetSortField(extendee);
 
-			if (field < 0) return;
+			if (field < 0) 
+				return;
 
 			var img = new Image
 			{

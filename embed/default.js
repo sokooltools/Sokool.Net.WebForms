@@ -4,11 +4,11 @@ function toggleDiv(oDiv) {
 	oDiv = document.getElementById(oDiv);
 	if (oDiv.style.display === "block") {
 		oDiv.style.display = "none";
-		document.getElementById("ShowHide").innerHTML = "Show " + oDiv.id + " >>>";
+		document.getElementById("ShowHide").innerHTML = `Show ${oDiv.id} >>>`;
 	}
 	else {
 		oDiv.style.display = "block";
-		document.getElementById("ShowHide").innerHTML = "<<< Hide " + oDiv.id;
+		document.getElementById("ShowHide").innerHTML = `<<< Hide ${oDiv.id}`;
 	}
 }
 
@@ -42,7 +42,7 @@ function SetTitle(sPath, sVideo) {
 			sources: [{ 
 			//	file: "../" + sPath + "/" + sVideo + ".flv"
 			//},{ 
-				file: "../" + sPath + "/" + sVideo + ".mp4"
+				file: `../${sPath}/${sVideo}.mp4`
 			}] 
 		}], 
 		//primary: "flash",
@@ -89,10 +89,10 @@ function file_name_only(str) {
 function getElementsByClass(searchClass) {
 	// This function returns an array of all HTML objects with the
 	// specified className.  Tag is optional
-	var returnArray = [];
-	var els = document.getElementsByTagName("*");
-	var pattern = new RegExp("(^|\\s)" + searchClass + "(\\s|$)");
-	for (var i = 0; i < els.length; i++) {
+	const returnArray = [];
+	const els = document.getElementsByTagName("*");
+	const pattern = new RegExp(`(^|\\s)${searchClass}(\\s|$)`);
+	for (let i = 0; i < els.length; i++) {
 		if (pattern.test(els[i].className))
 			returnArray.push(els[i]);
 	}
@@ -100,14 +100,14 @@ function getElementsByClass(searchClass) {
 }
 
 function QueryString(ji) {
-	var hu = window.location.search.substring(1);
-	var gy = hu.split("&");
-	for (var i = 0; i < gy.length; i++) {
-		var ft = gy[i].split("=");
-		if (ft[0] === ji)
+	const hu = window.location.search.substring(1);
+	const gy = hu.split("&");
+	for (let i = 0; i < gy.length; i++) {
+        const ft = gy[i].split("=");
+        if (ft[0] === ji)
 			return ft[1];
-	}
-	return hu;
+    }
+    return hu;
 }
 
 function InitPol() {
@@ -124,16 +124,16 @@ function InitPol() {
 // $("#Lyrics").maxZIndex({ inc: 5 });
 // alert($.maxZIndex());
 //
-/// <summary>
-/// Returns the max zOrder in the document (no parameter)
-/// Sets max zOrder by passing a non-zero number
-/// which gets added to the highest zOrder.
-/// </summary>
-/// <param name="opt" type="object">
-/// inc: increment value,
-/// group: selector for zIndex elements to find max for
-/// </param>
-/// <returns type="jQuery" />
+// /// <summary>
+// /// Returns the max zOrder in the document (no parameter)
+// /// Sets max zOrder by passing a non-zero number
+// /// which gets added to the highest zOrder.
+// /// </summary>
+// /// <param name="opt" type="object">
+// /// inc: increment value,
+// /// group: selector for zIndex elements to find max for
+// /// </param>
+// /// <returns type="jQuery" />
 //$.maxZIndex = $.fn.maxZIndex = function(opt)
 //{
 //	var def = { inc: 10, group: "*" };
